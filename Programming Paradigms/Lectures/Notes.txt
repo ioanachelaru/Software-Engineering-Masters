@@ -1,0 +1,53 @@
+
+                           ---LECTURE 1---
+
+Computation Models:
+	Declarative programming = stateless programming
+		- functions over partial data
+		- focuses on building logic of software without actually
+			describing its flow
+		- ex. - functional languages: Lisp, Haskell
+		      - logic languages: Prolog
+		      - representation languages: XML, XSL
+
+	Imperative programming = stateful programming
+		- state is a sequence of values in time that contains
+			the intermediate results of a desired computation
+		- procedural and object-oriented programming belong under imperative paradigm
+		- ex. C, C++, C#, Php, Java, Assembly
+	
+	Object-oriented programming
+		- uses object abstractisation, explicit state, polymorphism, and inheritance
+	
+	Concurrent programming
+		- can interact with the environment
+		- technique in which two or more processes start, run in an interleaved
+			fashion through context switching and complete in an 
+			overlapping time period	by managing access to shared resources
+		- different from parallel programming
+
+Programming Models:
+	- Exception handling
+	- Concurrency
+	- Components
+	- Capabilities
+	- State
+
+Reasoning Models:
+	- Syntax
+	- Semantics
+	- Programming language
+-------------------------------------------------------------------------
+
+Oz - multi-paradigm:
+	- declarative, concurrent, stateful, object-oriented
+	- Variable use error -> execution waits util variable is bound
+	- Oz has dynamically typed varibles vs Java - static type language = types
+		of all variables can be determined at compile time
+
+	- cell = multiple-assignment variable (NewCell, :=, @)
+
+	- Concept of Higher-Order Programming = ability to pass functions as arguments or results
+
+                                
+                               ---Lecture 2---

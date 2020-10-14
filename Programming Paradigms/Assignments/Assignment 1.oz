@@ -30,9 +30,9 @@ end
 
 declare
 fun {MyPow N M}
- if M == 0 then 1
-else N * {MyPow N M-1}
-end
+    if M == 0 then 1
+    else N * {MyPow N M-1}
+    end
 end
 
 % test cases
