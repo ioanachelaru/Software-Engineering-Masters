@@ -50,4 +50,48 @@ Oz - multi-paradigm:
 	- Concept of Higher-Order Programming = ability to pass functions as arguments or results
 
                                 
+
                                ---Lecture 2---
+
+- the syntax of a language is concerned with the form of the program
+- the semantics of a language is concerned with the meaning of a program
+- sentences = statements, words = tokens
+
+characters -> Lexical analyser -> tokens -> 
+	Parser -> parse tree (statement representation)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
