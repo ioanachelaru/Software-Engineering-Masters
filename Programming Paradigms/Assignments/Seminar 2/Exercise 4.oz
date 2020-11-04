@@ -72,17 +72,7 @@ A = {Insert R 4}
 {Browse 'Visualize tree after insertion'}
 {Preorder A}
 
-{Browse 'Smallest A'}
-{Browse {Smallest A}}
-
-{Browse 'Biggest A'}
-{Browse {Biggest A}}
-
-{Browse 'A is Sorted'}
-{Browse {IsSortedBST A}}
-
-{Browse 'Visualize T'}
-{Browse T}
-
-{Browse 'T is Sorted'}
-{Browse {IsSortedBST T}}
+{Browse {Smallest A} == 3}
+{Browse {Biggest A} == 6}
+{Browse {IsSortedBST A} == true}
+{Browse {IsSortedBST T} == false}
