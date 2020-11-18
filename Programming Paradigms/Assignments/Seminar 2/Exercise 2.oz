@@ -6,10 +6,10 @@
 } */
 
 declare
-fun {Reverse_helper L AUX}
+fun {Reverse_aux L AUX}
     case L of 
     nil then AUX
-    [] H|T then {Reverse_helper T H|AUX}
+    [] H|T then {Reverse_aux T H|AUX}
     end
 end
 
@@ -17,7 +17,7 @@ end
 
 declare
 fun {Reverse L}
-    {Reverse_helper L nil}
+    {Reverse_aux L nil}
 end
 
 % Tests
