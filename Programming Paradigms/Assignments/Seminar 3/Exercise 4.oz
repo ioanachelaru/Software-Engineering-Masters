@@ -3,7 +3,7 @@ fun {Position_aux List Element Acc}
     case List of
     nil then 0
     [] H|T then 
-        if H==Element then Acc
+        if H == Element then Acc
         else {Position_aux T Element (Acc+1)}
 	    end
    end

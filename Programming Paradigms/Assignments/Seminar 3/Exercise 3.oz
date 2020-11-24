@@ -29,4 +29,5 @@ end
 {Browse {Zip [1 2]#nil} == nil}
 {Browse {Zip [a b c]#[a b c]} == [a#a b#b c#c]}
 
-{Browse {Unzip [a#1 b#2 c#3]}}
+{Browse {Unzip [a#1 b#2 c#3]} == [a b c]#[1 2 3]}
+{Browse {Unzip nil} == nil#nil}
