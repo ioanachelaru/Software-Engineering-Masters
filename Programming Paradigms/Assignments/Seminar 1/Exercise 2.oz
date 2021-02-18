@@ -1,4 +1,4 @@
-/*Computenmwhere n^m where n is an integer
+/*Compute n^m where n is an integer
  and m is a natural number*/
 
 declare

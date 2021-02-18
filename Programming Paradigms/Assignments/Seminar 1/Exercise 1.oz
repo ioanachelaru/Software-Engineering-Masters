@@ -1,5 +1,5 @@
 /*Write a function Abs that computes the absolute value of a number.
-  This should work for both integersandrealnumbers. */
+  This should work for both integers and real numbers. */
 
 declare
 fun {MyAbs X}
