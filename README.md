@@ -6,3 +6,5 @@
 * [Formal Methods](https://github.com/ioanachelaru/Software-Engineering-Masters/tree/master/Formal%20Methods)
 * [Programming Paradigms](https://github.com/ioanachelaru/Software-Engineering-Masters/tree/master/Programming%20Paradigms)
 * [Requirements Engineering](https://github.com/ioanachelaru/Software-Engineering-Masters/tree/master/Requirements%20Engineering)
+
+:open_file_folder: 2nd Semester:
