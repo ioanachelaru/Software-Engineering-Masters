@@ -1,2 +1,2 @@
 # Service-Oriented Architecture
-🔖[Lectures]()
+🔖[Lectures](https://www.cs.ubbcluj.ro/~ilazar/soa/)

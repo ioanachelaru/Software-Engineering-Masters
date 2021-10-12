@@ -1,2 +1,2 @@
 # Adaptive Web Design
-🔖[Lectures]()
+🔖[Lectures](https://www.cs.ubbcluj.ro/~sanda/teaching/2021-2022/AWD/)
