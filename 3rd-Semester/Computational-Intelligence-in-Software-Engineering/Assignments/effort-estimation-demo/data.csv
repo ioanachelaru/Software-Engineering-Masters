@@ -1,0 +1,124 @@
+adc_sample_conv.hpp,scopyExceptionHandler.h
+annotationcurve.h,decoder.hpp logic_tool.h
+annotationdecoder.h,annotationcurve.h decoder.h logic_analyzer.h
+apiobjectmanager.h,apiObject.hpp
+basemenu.h,basemenuitem.h utils.h
+basemenuitem.h,coloredQWidget.hpp basemenu.h utils.h
+binding.hpp,property.hpp
+bitfieldwidget.h,math.h
+bool.hpp,property.hpp
+calibration_api.hpp,calibration.hpp
+calibration.hpp,apiObject.hpp logging_categories.h calibration_api.hpp
+cancel_dc_offset_block.h,signal_sample.hpp
+channel_manager.hpp,channel_widget.hpp customPushButton.hpp dynamicWidget.hpp
+channel_widget.hpp,dynamicWidget.hpp
+connectDialog.hpp,dynamicWidget.hpp
+ConstellationDisplayPlot.h,DisplayPlot.h spectrumUpdateEvents.h
+cursor_readouts.h,customanimation.h customplotpositionbutton.h
+custom_menu_button.hpp,customPushButton.hpp
+customplotpositionbutton.h,coloredQWidget.hpp dynamicWidget.hpp
+customScale.hpp,autoScaler.hpp
+customSwitch.hpp,customanimation.h
+db_click_buttons.hpp,dynamicWidget.hpp
+dbgraph.hpp,cursor_readouts.h DisplayPlot.h osc_scale_engine.h x_axis_scale_zoomer.h plotpickerwrapper.h
+debugger.h,bitfieldwidget.h registerwidget.h detachedWindow.hpp tool_launcher.hpp utils.h
+decoder.h,annotation.h row.h rowdata.h
+detachdragzone.h,coloredQWidget.hpp basemenuitem.h
+detachedwindowsmanager.h,detachedWindow.hpp
+device_widget.hpp,dynamicWidget.hpp info_page.hpp tool_launcher.hpp
+digitalchannel_manager.hpp,pg_patterns.hpp pattern_generator.hpp
+digitalio_api.hpp,digitalio.hpp
+digitalio.hpp,dynamicWidget.hpp digitalio_api.hpp
+DisplayPlot.h,cursor_readouts.h handles_area.hpp plotpickerwrapper.h
+dmm_api.hpp,dmm.hpp
+dmm.hpp,spinbox_a.hpp dynamicWidget.hpp utils.h logging_categories.h dmm_api.hpp
+double.hpp,property.hpp
+dropdown_switch_list.h,ComboBoxLineEdit.h checkbox_delegate.h
+enum.hpp,property.hpp
+extendingplotzoomer.h,limitedplotzoomer.h oscilloscope_plot.hpp
+fft_block.hpp,stream_to_vector_overlap.h
+FftDisplayPlot.h,cursor_readouts.h
+filemanager.h,filemanager.h config.h
+generic_menu.hpp,basemenu.h menu_header.hpp subsection_separator.hpppp DisplayPlot.h paintersaverestore.h
+handles_area.hpp,handlesareaextension.h plot_line_handle.h handlesareaextension.h
+HistogramDisplayPlot.h,DisplayPlot.h spectrumUpdateEvents.h
+histogram_sink_f_impl.h,histogram_sink_f.h HistogramDisplayPlot.h
+homepage_controls.h,
+iio_manager.hpp,timeout_block.hpp logging_categories.h scopyExceptionHandler.h
+info_page.hpp,contextbuilder.hpp context.hpp dmm.hpp dynamicWidget.hpp
+int.hpp,property.hpp
+linked_button.hpp,dynamicWidget.hpp
+logicanalyzer_api.h,decoder.hpp
+logic_analyzer.h,spinbox_a.hpp logicdatacurve.h annotationcurve.h decoder.h basemenu.h dynamicWidget.hpp osc_export_settings.h filemanager.h config.h state_updater.h
+logic_analyzer_sink.h,logic_analyzer.h
+logic_analyzer_sink_impl.h,logic_analyzer_sink.h
+logicdatacurve.h,genericlogicplotcurve.h logic_tool.h
+logicgroupitem.h,basemenuitem.h basemenu.h
+logic_tool.h,tool.hpp
+manual_calibration_api.hpp,manualcalibration.h
+manualcalibration.h,detachedWindow.hpp tool_launcher.hpp filter.hpp logging_categories.h manual_calibration_api.hpp scopyExceptionHandler.h
+marker_controller.h,spectrum_marker.hpp
+marker_table.hpp,plot_utils.hpp
+math.hpp,dynamicWidget.hpp
+measure.h,adc_sample_conv.hpp
+measurement_gui.h,measure.h
+measure_settings.h,dropdown_switch_list.h
+menu_anim.hpp,coloredQWidget.hpp customanimation.h
+mixed_signal_sink.h,logic_analyzer.h TimeDomainDisplayPlot.h
+mixed_signal_sink_impl.h,mixed_signal_sink.h
+networkanalyzerbufferviewer.h,oscilloscope.hpp TimeDomainDisplayPlot.h
+network_analyzer.hpp,spinbox_a.hpp customPushButton.hpp startstoprangewidget.h dynamicWidget.hpp spinbox_a.hpp hardware_trigger.hpp filemanager.h scopyExceptionHandler.h
+nyquistGraph.hpp,customFifo.hpp dbgraph.hpp nyquistplotzoomer.h
+osc_adc.h,hardware_trigger.hppscopyExceptionHandler.h
+osc_export_settings.h,dropdown_switch_list.h
+oscilloscope_api.hpp,measure_settings.h channel_widget.hpp
+oscilloscope.hpp,spinbox_a.hpp osc_import_settings.h logic_analyzer.h customPushButton.hpp dynamicWidget.hpp measure_settings.h customplotpositionbutton.h channel_widget.hpp runsinglewidget.h
+oscilloscope_plot.hpp,measure.h customplotpositionbutton.h logicdatacurve.h annotationcurve.h
+osc_import_settings.h,osc_export_settings.h
+osc_scale_engine.h,qwt_math.h
+osc_scale_zoomer.h,limitedplotzoomer.h DisplayPlot.h
+pattern_generator_api.h,patterns.hpp
+pattern_generator.h,spinbox_a.hpp genericlogicplotcurve.h dynamicWidget.hpp basemenu.h logicgroupitem.h logicdatacurve.h patterns.hpp annotationcurve.h annotationdecoder.h pattern_generator_api.h scopyExceptionHandler.h
+patterns.hpp,spinbox_a.hpp osc_import_settings.h genericlogicplotcurve.h decoder.h common_factor.hpp pattern_generator.h annotationcurve.h annotationdecoder.h dynamicWidget.hpp
+phonehome.h,preferences.h
+plot_line_handle.h,andles_area.hpp
+power_controller_api.hpp,power_controller.hpp
+power_controller.hpp,spinbox_a.hpp dynamicWidget.hpp filter.hpp power_controller_api.hpp logging_categories.h scopyExceptionHandler.h
+preferences.h,coloreditor.h dynamicWidget.hpp application_restarter.h
+registerwidget.h,bitfieldwidget.h debug.h
+regmapparser.h,string.h
+rowdata.h,annotation.h
+runsinglewidget.h,dynamicWidget.hpp customPushButton.hpp
+saverestoretoolsettings.h,tool.hpp
+scope_sink_f.h,trigger_mode.h
+scope_sink_f_impl.h,scope_sink_f.h TimeDomainDisplayPlot.h FftDisplayPlot.h
+scopy_color_editor.h,application_restarter.h
+session_info.h,apiObject.hpp config.h
+settings_pair_widget.hpp,customPushButton.hpp
+signal_generator_api.hpp,channel_widget.hpp spinbox_a.hpp
+signal_generator.hpp,noise_type.h dynamicWidget.hpp spinbox_a.hpp channel_widget.hpp scopyExceptionHandler.h signal_generator_api.hpp
+sismograph.hpp,autoScaler.hpp customFifo.hpp
+smallOnOffSwitch.hpp,customanimation.h dynamicWidget.hpp
+spectrum_analyzer_api.hpp,channel_widget.hpp db_click_buttons.hpp
+spectrum_analyzer.hpp,spinbox_a.hpp customPushButton.hpp startstoprangewidget.h measure.h dynamicWidget.hpp channel_widget.hpp db_click_buttons.hpp measure.h measure_settings.h scopyExceptionHandler.h
+spinbox_a.hpp,completion_circle.h apiobjectmanager.h singletone_wrapper.h
+stacked_homepage.h,homepage_controls.h customanimation.h
+startstoprangewidget.h,spinbox_a.hpp
+statistic_widget.h,measure.h plot_utils.hpp
+stream_to_vector_overlap_impl.h,stream_to_vector_overlap.h
+string.hpp,property.hpp
+symbol_controller.h,symbol.h qwt_painter.h
+theme_manager.hpp,utils.h
+TimeDomainDisplayPlot.h,DisplayPlot.h spectrumUpdateEvents.h
+tool.hpp,detachedwindowsmanager.h
+tool_launcher_api.hpp,user_notes.hpp spectrum_analyzer.hpp apiobjectmanager.h debugger.h
+tool_launcher.hpp,logic_analyzer.h pattern_generator.h detachedWindow.hpp info_page.hpp connectDialog.hpp dynamicWidget.hpp dragzone.h user_notes.hpp animationmanager.h singletone_wrapper.h phonehome.h tool_launcher_api.hpp toolmenu.h toolmenuitem.h scopyExceptionHandler.h
+toolmenu.h,basemenu.h filter.hpp toolmenuitem.h preferences.h
+toolmenuitem.h,basemenuitem.h customPushButton.hpp dynamicWidget.hpp utils.h
+tool_view_builder.hpp,tool_view.hpp dynamicWidget.hpp
+tool_view.hpp,channel_manager.hpp channel_widget.hpp custom_menu_button.hpp customPushButton.hpp generic_menu.hpp linked_button.hpp channel_widget.hpp menu_header.hpp utils.h
+trigger_settings.hpp,spinbox_a.hpp scroll_filter.hpp scopyExceptionHandler.h
+user_notes_api.hpp,user_notes.hpp
+user_notes.hpp,dynamicWidget.hpp user_notes_api.hpp
+x_axis_scale_zoomer.h,osc_scale_zoomer.h qwt_scale_draw.h
+xy_sink_c_impl.h,xy_sink_c.h ConstellationDisplayPlot.h
