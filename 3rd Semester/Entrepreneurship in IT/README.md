@@ -1,2 +1,0 @@
-# Entrepreneurship in IT
-🔖[Lectures]()
