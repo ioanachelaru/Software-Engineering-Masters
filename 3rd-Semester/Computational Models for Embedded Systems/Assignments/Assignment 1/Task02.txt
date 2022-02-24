@@ -1,0 +1,11 @@
+Problem: 
+	 Repairing electronics and donating them
+Actors: 
+	Professor (P)
+	UBB-Recycle-Center (UBB-RC)
+	UBB-Social-Service (UBB-SS)
+Signals: 
+	P to UBB-RC (haveBrokenElectronics) and UBB-RC to P (doYouHaveBrokenElectronics?)
+	UBB-RC to UBB-SS (haveFixedElectronics) and UBB-SS to UBB-RC (doYouHaveFixedElectronics?)
+	
+The P signals to UBB-RC when he has any broken electronics. UBB-RC repairs the electronics and signals to UBB-SS who will deliver them to an ONG
