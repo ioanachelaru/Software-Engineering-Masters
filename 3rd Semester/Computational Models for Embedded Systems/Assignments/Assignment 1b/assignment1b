@@ -1,0 +1,99 @@
+/*
+Actors: Movemenet sensor (MS), Surveillance camera (SC), 
+		System movement controller (SMC),  Mobile phone (MP)  
+
+Signals: MS to SMC, SMC to SC, SMC to MP
+
+Problem statement: The movement sensor registers new activity, alerts the system controller, 
+			which will trigger the camera and notify the user on its mobile phone.
+*/
+
+ 
+mtype = {registerMovement, notifyCamera, notifyUser}
+chan signal = [0] of {mtype};
+
+byte secondsCount=0;
+bool movement_detected = false;
+bool camera_records = false;
+bool user_notified = false;
+bool controller_running = false;
+
+active proctype MS() {
+
+	hunting: atomic {		
+		if 
+		:: secondsCount < 3 -> atomic{
+							printf("MS is on the hunt, waiting for movement \n");
+							secondsCount++;										
+							goto hunting;
+							}
+
+	       	 :: secondsCount == 3 -> atomic {
+							signal!registerMovement; 
+							secondsCount = 0;
+							goto hunting;
+							}
+			:: secondsCount == 3 -> atomic {
+							secondsCount = 0;
+							goto finished;
+							}	
+		fi;
+	};
+
+	finished: {
+		movement_detected = true;
+	};
+}
+
+active proctype SC() {
+
+	waiting: atomic {		
+		signal?notifyCamera -> {
+					printf("Camera started recording \n");
+					goto finished;
+
+				};
+	};
+
+	finished: {
+		camera_records = true;
+	};
+}
+
+active proctype MP() {
+
+	waiting: atomic {		
+		signal?notifyUser -> {
+					printf("User has been notified \n");
+					goto finished;
+
+				};
+	};
+
+	finished: {
+		user_notified = true;
+	};
+}
+
+active proctype SMC() {
+
+	waiting: atomic {		
+		signal?registerMovement -> {
+					printf("New activity registered \n");
+					signal!notifyCamera;
+					signal!notifyUser;
+					goto finished;
+
+				};
+	};
+
+	finished: {
+		controller_running = true;
+	};
+}
+
+/* [](!movement_detected -> <> movement_detected) - always, if there is no movement detected, eventually there will be */
+
+/* [](registerMovement -> <> notifyUser) - always, when a movement is detected, the user will be notified */
+
+/* [](registerMovement -> <> notifyCamera) - always, when a movement is detected, the camera will be notified */
